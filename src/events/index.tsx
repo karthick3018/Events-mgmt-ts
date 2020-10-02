@@ -379,7 +379,7 @@ const Events = () => {
                                 <span className="free-batch"> Free</span>
                               ) : (
                                 ""
-                              )}{" "}
+                              )}
                               <p>{eachEvents.name}</p>
                             </div>
                             {!eachEvents?.isRegistered &&
